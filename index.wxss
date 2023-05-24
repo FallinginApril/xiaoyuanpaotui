@@ -1,0 +1,62 @@
+.banner.banner_body,.banner_item,.banner_item image{
+  width:100%;
+}
+
+.notice{
+  display:flex;
+  align-items: center;
+  background-color:#fff;
+  padding: 5rpx 15prx;
+  margin-top: 20rpx;
+}
+
+.notice image{
+  width:60rpx;
+  height:60rpx;
+}
+
+.notice text{
+  font-size: 28rpx;         /*字体大小*/
+  overflow: hidden;         /*隐藏*/ 
+  text-overflow: ellipsis;  /*...*/
+  white-space: nowrap;      /*不换行*/
+  margin-left: 30rpx;       /*距离左边的位置*/
+}
+
+.container {
+  margin: 40rpx;
+  display: flex;
+  flex-wrap: wrap;         /*换行*/
+}
+.container .body {
+ width: 160rpx;
+ height: 160rpx;
+ background-color:#fff;
+ display: flex;
+ flex-direction: row;   /*水平排列*/
+ justify-content: center;
+ align-items: center;       /*居中*/
+ position: relative;
+ margin: 20rpx;
+ margin-left: 40rpx;
+ border-radius: 20rpx;
+}
+.container .body .icon { 
+  width: 100rpx;
+  height: 100rpx;
+  background-color: rgb(250, 186, 200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -20rpx;
+}
+.container .body .icon image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.container .body .text {
+  margin-top: 80rpx;
+  color: rgb(15, 14, 14);
+}

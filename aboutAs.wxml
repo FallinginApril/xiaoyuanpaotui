@@ -1,0 +1,11 @@
+<view class="logo">
+    <image src="../../images/banner1.png" mode="widthFix"></image>
+</view>
+
+<view class="desc">
+   为校园生活提供更好的服务和带来更多的便利。
+</view>
+
+<view class="cell">
+    对本程序中的疏漏之处和错误, 望不吝赐教
+</view>
